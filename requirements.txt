@@ -1,0 +1,7 @@
+selenium
+beautifulsoup4
+pymongo
+openai
+requests
+crewai
+webdriver_manager
