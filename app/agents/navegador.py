@@ -5,11 +5,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from app.database import salvar_log
 from app.agents.url_builder import construir_urls
 
-CATEGORIAS = ["it-programming", "design-multimedia"]
+CATEGORIAS = ["it-programming", "design-multimedia", "admin-support", "writing-translation"]
 SUBCATEGORIAS = [
-    "web-development", "web-design", "e-commerce",
-    "wordpress-1", "artificial-intelligence-1",
-    "landing-page", "artificial-intelligence-2"
+    "web-development", "web-design", "e-commerce"
 ]
 
 def navegar_para_urls():

@@ -34,7 +34,7 @@ def executar_fluxo():
         
         if "SIM" in analise_resultado.upper():
             proposta = gerador.generate(job_description)
-            review = expert.review(job_description, proposta)
+            # review = expert.review(job_description, proposta)
             
             resultados.append({
                 "titulo": vaga["titulo"],
@@ -46,7 +46,7 @@ def executar_fluxo():
                 # "habilidades": vaga["habilidades"],
                 "analise": analise_resultado,
                 "proposta": proposta,
-                "review": review
+                # "review": review
             })
 
     markdown_output = gerar_markdown(resultados)
